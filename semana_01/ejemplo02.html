@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    
+<head>
+    
+
+   
+    
+    
+</head>
+<link rel="stylesheet" href="estilos.css"type="text/css"/> 
+<body>
+        <h2> Seccion B: Informacion del viaje <hr></h2>
+        <table>
+            <tr>
+                <td width="20%" for="aerolinea" id="aerolinea">Nombre de la aerolinea </td>
+                        <td>
+                        <select width="60%" name="Seleccione una aerolinea">
+                            <option value="0"> Seleccione una aerolinea</option>
+                            <option value="1">LATAM</option>
+                            <option value="2">AEROMEXICO</option>
+                            <option value="3">COPA AIRLINES</option>
+                            <option value="4">CONDOR</option>
+                        </select></td>
+                <td colspan="2">gastos adicionales estimados</td>
+            </tr>
+            
+            <tr>
+                <td>destino</td>
+                <td><input type="text" size="21.5" name="nombre" required ></td>
+                <td>Alquiler de coche</td>
+                <td><input type="number" id="tentacles" name="tentacles"
+                    min="100" max="600" step="1" maxlength="3"size="9.7"></td>
+            </tr>
+
+            <tr>
+                <td>Fecha de Salida:</td>
+                <td><input type="date" id="start" name="trip-start" min="2020-01-01"></td>
+                <td>Hotel:</td>
+                <td><input size="9.7"></td>
+            </tr>
+
+            <tr>
+                <td>Fecha de Regreso:</td>
+                <td><input type="date" id="start" name="trip-start" min="2020-01-01"></td>
+                <td>Comidas:</td>
+                <td><input type="number" id="tentacles" name="tentacles"
+                    min="001" max="1000000" step="1" maxlength="10" size="7"></td>
+            </tr>
+
+            <tr>
+                <td>coste estimado:</td>
+                <td><input type="number" id="tentacles" name="tentacles"
+                    min="100" max="1000" step="1" maxlength="4" size="40"></td>
+                <td>Total estimado:</td>
+                <td><input size="9.7"></td>
+            </tr>
+        
+    </form>
+</body>
+</html>
